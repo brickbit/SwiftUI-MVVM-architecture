@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "65673CD0-FD4A-4254-9118-5124F90FD781"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C81F52DB-A6F2-485F-B935-5F77CE4FE26C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvvm_ios/app/navigation/Navigator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C81F52DB-A6F2-485F-B935-5F77CE4FE26C - 18db92c14c009dff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (mvvm_ios.CourseRoute) -&gt; mvvm_ios.DetailCourseView in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in mvvm_ios.Navigator.body.getter : some"
+                  moduleName = "mvvm_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rupestre/Documents/mvvm_ios/mvvm_ios/app/navigation/Navigator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "C81F52DB-A6F2-485F-B935-5F77CE4FE26C - 18db92c14c009dff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (mvvm_ios.CourseRoute) -&gt; mvvm_ios.DetailCourseView in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in mvvm_ios.Navigator.body.getter : some"
+                  moduleName = "mvvm_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rupestre/Documents/mvvm_ios/mvvm_ios/app/navigation/Navigator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85CDA8A4-650D-4975-82F3-81978EA7C7BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvvm_ios/app/navigation/Navigator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "821D2D9A-93A6-400E-9BBA-3C259813D884"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvvm_ios/app/screen/detail/DetailCourseView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(link:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "821D2D9A-93A6-400E-9BBA-3C259813D884 - 379311077645d76e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mvvm_ios.DetailCourseView.init(link: Swift.String) -&gt; mvvm_ios.DetailCourseView"
+                  moduleName = "mvvm_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rupestre/Documents/mvvm_ios/mvvm_ios/app/screen/detail/DetailCourseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "821D2D9A-93A6-400E-9BBA-3C259813D884 - 379311077645d76e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mvvm_ios.DetailCourseView.init(link: Swift.String) -&gt; mvvm_ios.DetailCourseView"
+                  moduleName = "mvvm_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rupestre/Documents/mvvm_ios/mvvm_ios/app/screen/detail/DetailCourseView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "459">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
