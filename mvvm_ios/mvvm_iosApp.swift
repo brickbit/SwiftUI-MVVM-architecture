@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct mvvm_iosApp: App {
@@ -13,5 +14,6 @@ struct mvvm_iosApp: App {
         WindowGroup {
             Navigator()
         }
+        .modelContainer(for: [DataLinkDao.self, InfoDao.self, CharacterLocationDao.self,CharacterDao.self, CharacterDataDao.self, EpisodeDao.self, EpisodeDataDao.self, LocationDao.self,LocationDataDao.self])
     }
 }

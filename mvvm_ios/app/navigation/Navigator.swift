@@ -11,12 +11,12 @@ struct Navigator: View {
     
     var body: some View {
         NavigationStack {
-            ListCoursesView()
-            .navigationTitle("RayWenderlich courses")
-            .navigationDestination(for: CourseRoute.self) { route in
+            ListCharactersView()
+            .navigationTitle("Rick & Morty")
+            .navigationDestination(for: CharacterRoute.self) { route in
                 switch(route) {
-                case .Detail(let link):
-                    DetailCourseView(link: link)
+                case .Detail(let character):
+                    DetailCharacterView(character: character)
                 }
             }
         }

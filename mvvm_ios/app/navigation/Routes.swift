@@ -8,6 +8,6 @@
 import Foundation
 import SwiftUI
 
-enum CourseRoute: Hashable {
-    case Detail(String)
+enum CharacterRoute: Hashable {
+    case Detail(CharacterBo)
 }

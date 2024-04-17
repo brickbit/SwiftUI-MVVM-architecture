@@ -14,6 +14,9 @@ enum ErrorType: Error {
     case timeOutError
     case unknownHostException
     case unknownNetworkError
+    case episodeError
+    case characterError
+    case locationError
 }
 
 struct HttpError{let code: Int}
@@ -29,6 +32,9 @@ extension ErrorType {
         case .timeOutError: return "Time out"
         case .unknownHostException: return "Host desconocido"
         case .unknownNetworkError: return "Error de red desconocido"
+        case .episodeError: return "Error al obtener los episodios"
+        case .characterError: return "Error al obtener los personajes"
+        case .locationError: return "Error al obtener las ubicaciones"
         }
     }
 }

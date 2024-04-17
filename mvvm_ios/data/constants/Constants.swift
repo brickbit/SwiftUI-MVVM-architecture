@@ -8,6 +8,6 @@
 import Foundation
 
 // Api - Base
-let BASE_URL = "https://api.kodeco.com/api/"
+let BASE_URL = "https://rickandmortyapi.com"
 
-let GET_COURSES = "contents?filter[content_types][]=collection"
+let GET_RICK_MORTY_DATA = "/api"

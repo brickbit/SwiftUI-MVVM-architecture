@@ -17,15 +17,16 @@ extension Resolver: ResolverRegistering {
         
 
         //Use cases
-        register {GetListCourseUseCase()}
-        register {GetDetailCourseUseCase()}
+        register {GetCharactersUseCase()}
+        register {GetEpisodesUseCase()}
+        register {GetLocationsUseCase()}
         
-        //Repositories
-        register {CourseRepositoryImpl()}.implements(CourseRepository.self)
-        
+        //Repositories        
+        register {RickMortyRepositoryImpl()}.implements(RickMortyRepository.self)
+
         //ViewModels
-        register {ListCoursesViewModel()}
-        register {DetailCourseViewModel()}
+        register {ListCharactersViewModel()}
+        register {DetailCharacterViewModel()}
 
     }
 }

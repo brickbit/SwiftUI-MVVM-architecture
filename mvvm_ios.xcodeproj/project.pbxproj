@@ -7,32 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE44F2712ADB3D8F00A5057E /* CourseBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2702ADB3D8F00A5057E /* CourseBo.swift */; };
-		CE44F2732ADB3DFD00A5057E /* CourseDetailBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2722ADB3DFD00A5057E /* CourseDetailBo.swift */; };
-		CE44F2752ADB3E3C00A5057E /* CourseEpisodeBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2742ADB3E3C00A5057E /* CourseEpisodeBo.swift */; };
-		CE44F2772ADB3E6800A5057E /* CourseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2762ADB3E6800A5057E /* CourseRepository.swift */; };
+		0536F73D2BCDCBF400CB5479 /* GetEpisodesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F73C2BCDCBF400CB5479 /* GetEpisodesUseCase.swift */; };
+		0536F73F2BCDCC4500CB5479 /* RickMortyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F73E2BCDCC4500CB5479 /* RickMortyRepository.swift */; };
+		0536F7412BCDCCFA00CB5479 /* DataLinkDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7402BCDCCFA00CB5479 /* DataLinkDto.swift */; };
+		0536F7432BCDCEC000CB5479 /* CharacterDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7422BCDCEC000CB5479 /* CharacterDto.swift */; };
+		0536F7462BCDD04800CB5479 /* CharacterDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7452BCDD04800CB5479 /* CharacterDataDto.swift */; };
+		0536F7482BCDD07600CB5479 /* LocationDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7472BCDD07600CB5479 /* LocationDataDto.swift */; };
+		0536F74A2BCDD0A300CB5479 /* EpisodeDataDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7492BCDD0A300CB5479 /* EpisodeDataDto.swift */; };
+		0536F74C2BCDD0B800CB5479 /* InfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F74B2BCDD0B800CB5479 /* InfoDto.swift */; };
+		0536F74E2BCDD0EE00CB5479 /* LocationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F74D2BCDD0EE00CB5479 /* LocationDto.swift */; };
+		0536F7502BCDD10600CB5479 /* EpisodeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F74F2BCDD10600CB5479 /* EpisodeDto.swift */; };
+		0536F7532BCDD30500CB5479 /* DataLinkBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7522BCDD30500CB5479 /* DataLinkBo.swift */; };
+		0536F7552BCDDE0700CB5479 /* GetCharactersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7542BCDDE0700CB5479 /* GetCharactersUseCase.swift */; };
+		0536F7572BCDDF2D00CB5479 /* CharacterBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7562BCDDF2D00CB5479 /* CharacterBo.swift */; };
+		0536F7592BCDE02100CB5479 /* EpisodeBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7582BCDE02100CB5479 /* EpisodeBo.swift */; };
+		0536F75B2BCDE05400CB5479 /* LocationBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F75A2BCDE05400CB5479 /* LocationBo.swift */; };
+		0536F75D2BCDE07E00CB5479 /* GetLocationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F75C2BCDE07E00CB5479 /* GetLocationsUseCase.swift */; };
+		0536F75F2BCDE19A00CB5479 /* RickMortyRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F75E2BCDE19A00CB5479 /* RickMortyRepositoryImpl.swift */; };
+		0536F7612BCEEC6500CB5479 /* CharacterDetailBo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7602BCEEC6500CB5479 /* CharacterDetailBo.swift */; };
+		0536F7652BCF293800CB5479 /* CharacterLocationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7642BCF293800CB5479 /* CharacterLocationDto.swift */; };
+		0536F7672BCF295A00CB5479 /* CharacterLocationDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7662BCF295A00CB5479 /* CharacterLocationDao.swift */; };
+		0536F7692BCF2A5D00CB5479 /* CharacterDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7682BCF2A5D00CB5479 /* CharacterDao.swift */; };
+		0536F76B2BCF2B1000CB5479 /* CharacterDataDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F76A2BCF2B1000CB5479 /* CharacterDataDao.swift */; };
+		0536F76D2BCF2B4200CB5479 /* InfoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F76C2BCF2B4200CB5479 /* InfoDao.swift */; };
+		0536F76F2BCF2CBB00CB5479 /* EpisodeDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F76E2BCF2CBB00CB5479 /* EpisodeDao.swift */; };
+		0536F7712BCF2D1E00CB5479 /* EpisodeDataDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7702BCF2D1E00CB5479 /* EpisodeDataDao.swift */; };
+		0536F7732BCF2DA600CB5479 /* LocationDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7722BCF2DA600CB5479 /* LocationDao.swift */; };
+		0536F7752BCF2E1600CB5479 /* LocationDataDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7742BCF2E1600CB5479 /* LocationDataDao.swift */; };
+		0536F7772BCF2EA600CB5479 /* DataLinkDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536F7762BCF2EA600CB5479 /* DataLinkDao.swift */; };
 		CE44F2792ADB3EBD00A5057E /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2782ADB3EBD00A5057E /* ErrorType.swift */; };
-		CE44F27B2ADB41A500A5057E /* GetListCourseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F27A2ADB41A500A5057E /* GetListCourseUseCase.swift */; };
-		CE44F27D2ADB43B100A5057E /* GetDetailCourseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F27C2ADB43B100A5057E /* GetDetailCourseUseCase.swift */; };
-		CE44F2842ADB446600A5057E /* CoursesAttributesDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2832ADB446600A5057E /* CoursesAttributesDao.swift */; };
-		CE44F2862ADB457D00A5057E /* CourseDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2852ADB457D00A5057E /* CourseDao.swift */; };
-		CE44F2882ADB474F00A5057E /* CourseDetailDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2872ADB474F00A5057E /* CourseDetailDao.swift */; };
-		CE44F28A2ADB47D000A5057E /* CourseItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2892ADB47D000A5057E /* CourseItemDao.swift */; };
-		CE44F28C2ADB481E00A5057E /* LinkDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F28B2ADB481E00A5057E /* LinkDao.swift */; };
 		CE44F28E2ADB49CD00A5057E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F28D2ADB49CD00A5057E /* Constants.swift */; };
-		CE44F2902ADB4A4900A5057E /* CourseRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F28F2ADB4A4900A5057E /* CourseRepositoryImpl.swift */; };
-		CE44F2922ADBD1B700A5057E /* ListCoursesDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2912ADBD1B700A5057E /* ListCoursesDao.swift */; };
-		CE44F2992ADC87F200A5057E /* ListCoursesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2982ADC87F200A5057E /* ListCoursesViewModel.swift */; };
-		CE44F29B2ADC931F00A5057E /* DetailCourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F29A2ADC931F00A5057E /* DetailCourseViewModel.swift */; };
+		CE44F2992ADC87F200A5057E /* ListCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2982ADC87F200A5057E /* ListCharactersViewModel.swift */; };
+		CE44F29B2ADC931F00A5057E /* DetailCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F29A2ADC931F00A5057E /* DetailCharacterViewModel.swift */; };
 		CE44F29E2ADC99D900A5057E /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = CE44F29D2ADC99D900A5057E /* Resolver */; };
 		CE44F2A02ADC99D900A5057E /* Resolver-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CE44F29F2ADC99D900A5057E /* Resolver-Dynamic */; };
 		CE44F2A22ADC99D900A5057E /* Resolver-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CE44F2A12ADC99D900A5057E /* Resolver-Static */; };
 		CE44F2A42ADC9C0F00A5057E /* injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2A32ADC9C0F00A5057E /* injection.swift */; };
 		CE44F2A62ADEEB5700A5057E /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2A52ADEEB5700A5057E /* Routes.swift */; };
 		CE44F2A82ADEEC5200A5057E /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2A72ADEEC5200A5057E /* Navigator.swift */; };
-		CE44F2AA2ADEED0E00A5057E /* DetailCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2A92ADEED0D00A5057E /* DetailCourseView.swift */; };
+		CE44F2AA2ADEED0E00A5057E /* DetailCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44F2A92ADEED0D00A5057E /* DetailCharacterView.swift */; };
 		CE8928702AD8A7820013B358 /* mvvm_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89286F2AD8A7820013B358 /* mvvm_iosApp.swift */; };
-		CE8928722AD8A7820013B358 /* ListCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8928712AD8A7820013B358 /* ListCoursesView.swift */; };
+		CE8928722AD8A7820013B358 /* ListCharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8928712AD8A7820013B358 /* ListCharactersView.swift */; };
 		CE8928742AD8A7840013B358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8928732AD8A7840013B358 /* Assets.xcassets */; };
 		CE8928782AD8A7840013B358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8928772AD8A7840013B358 /* Preview Assets.xcassets */; };
 		CE8928822AD8A7850013B358 /* mvvm_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8928812AD8A7850013B358 /* mvvm_iosTests.swift */; };
@@ -58,30 +73,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE44F2702ADB3D8F00A5057E /* CourseBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseBo.swift; sourceTree = "<group>"; };
-		CE44F2722ADB3DFD00A5057E /* CourseDetailBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailBo.swift; sourceTree = "<group>"; };
-		CE44F2742ADB3E3C00A5057E /* CourseEpisodeBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEpisodeBo.swift; sourceTree = "<group>"; };
-		CE44F2762ADB3E6800A5057E /* CourseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRepository.swift; sourceTree = "<group>"; };
+		0536F73C2BCDCBF400CB5479 /* GetEpisodesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEpisodesUseCase.swift; sourceTree = "<group>"; };
+		0536F73E2BCDCC4500CB5479 /* RickMortyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyRepository.swift; sourceTree = "<group>"; };
+		0536F7402BCDCCFA00CB5479 /* DataLinkDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLinkDto.swift; sourceTree = "<group>"; };
+		0536F7422BCDCEC000CB5479 /* CharacterDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDto.swift; sourceTree = "<group>"; };
+		0536F7452BCDD04800CB5479 /* CharacterDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataDto.swift; sourceTree = "<group>"; };
+		0536F7472BCDD07600CB5479 /* LocationDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataDto.swift; sourceTree = "<group>"; };
+		0536F7492BCDD0A300CB5479 /* EpisodeDataDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDataDto.swift; sourceTree = "<group>"; };
+		0536F74B2BCDD0B800CB5479 /* InfoDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDto.swift; sourceTree = "<group>"; };
+		0536F74D2BCDD0EE00CB5479 /* LocationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDto.swift; sourceTree = "<group>"; };
+		0536F74F2BCDD10600CB5479 /* EpisodeDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDto.swift; sourceTree = "<group>"; };
+		0536F7522BCDD30500CB5479 /* DataLinkBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLinkBo.swift; sourceTree = "<group>"; };
+		0536F7542BCDDE0700CB5479 /* GetCharactersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersUseCase.swift; sourceTree = "<group>"; };
+		0536F7562BCDDF2D00CB5479 /* CharacterBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterBo.swift; sourceTree = "<group>"; };
+		0536F7582BCDE02100CB5479 /* EpisodeBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeBo.swift; sourceTree = "<group>"; };
+		0536F75A2BCDE05400CB5479 /* LocationBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBo.swift; sourceTree = "<group>"; };
+		0536F75C2BCDE07E00CB5479 /* GetLocationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocationsUseCase.swift; sourceTree = "<group>"; };
+		0536F75E2BCDE19A00CB5479 /* RickMortyRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMortyRepositoryImpl.swift; sourceTree = "<group>"; };
+		0536F7602BCEEC6500CB5479 /* CharacterDetailBo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailBo.swift; sourceTree = "<group>"; };
+		0536F7642BCF293800CB5479 /* CharacterLocationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterLocationDto.swift; sourceTree = "<group>"; };
+		0536F7662BCF295A00CB5479 /* CharacterLocationDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterLocationDao.swift; sourceTree = "<group>"; };
+		0536F7682BCF2A5D00CB5479 /* CharacterDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDao.swift; sourceTree = "<group>"; };
+		0536F76A2BCF2B1000CB5479 /* CharacterDataDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataDao.swift; sourceTree = "<group>"; };
+		0536F76C2BCF2B4200CB5479 /* InfoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDao.swift; sourceTree = "<group>"; };
+		0536F76E2BCF2CBB00CB5479 /* EpisodeDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDao.swift; sourceTree = "<group>"; };
+		0536F7702BCF2D1E00CB5479 /* EpisodeDataDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDataDao.swift; sourceTree = "<group>"; };
+		0536F7722BCF2DA600CB5479 /* LocationDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDao.swift; sourceTree = "<group>"; };
+		0536F7742BCF2E1600CB5479 /* LocationDataDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataDao.swift; sourceTree = "<group>"; };
+		0536F7762BCF2EA600CB5479 /* DataLinkDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLinkDao.swift; sourceTree = "<group>"; };
 		CE44F2782ADB3EBD00A5057E /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
-		CE44F27A2ADB41A500A5057E /* GetListCourseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetListCourseUseCase.swift; sourceTree = "<group>"; };
-		CE44F27C2ADB43B100A5057E /* GetDetailCourseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDetailCourseUseCase.swift; sourceTree = "<group>"; };
-		CE44F2832ADB446600A5057E /* CoursesAttributesDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesAttributesDao.swift; sourceTree = "<group>"; };
-		CE44F2852ADB457D00A5057E /* CourseDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDao.swift; sourceTree = "<group>"; };
-		CE44F2872ADB474F00A5057E /* CourseDetailDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailDao.swift; sourceTree = "<group>"; };
-		CE44F2892ADB47D000A5057E /* CourseItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItemDao.swift; sourceTree = "<group>"; };
-		CE44F28B2ADB481E00A5057E /* LinkDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDao.swift; sourceTree = "<group>"; };
 		CE44F28D2ADB49CD00A5057E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CE44F28F2ADB4A4900A5057E /* CourseRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRepositoryImpl.swift; sourceTree = "<group>"; };
-		CE44F2912ADBD1B700A5057E /* ListCoursesDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoursesDao.swift; sourceTree = "<group>"; };
-		CE44F2982ADC87F200A5057E /* ListCoursesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoursesViewModel.swift; sourceTree = "<group>"; };
-		CE44F29A2ADC931F00A5057E /* DetailCourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCourseViewModel.swift; sourceTree = "<group>"; };
+		CE44F2982ADC87F200A5057E /* ListCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharactersViewModel.swift; sourceTree = "<group>"; };
+		CE44F29A2ADC931F00A5057E /* DetailCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterViewModel.swift; sourceTree = "<group>"; };
 		CE44F2A32ADC9C0F00A5057E /* injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = injection.swift; sourceTree = "<group>"; };
 		CE44F2A52ADEEB5700A5057E /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
 		CE44F2A72ADEEC5200A5057E /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		CE44F2A92ADEED0D00A5057E /* DetailCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCourseView.swift; sourceTree = "<group>"; };
+		CE44F2A92ADEED0D00A5057E /* DetailCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterView.swift; sourceTree = "<group>"; };
 		CE89286C2AD8A7820013B358 /* mvvm_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE89286F2AD8A7820013B358 /* mvvm_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_iosApp.swift; sourceTree = "<group>"; };
-		CE8928712AD8A7820013B358 /* ListCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoursesView.swift; sourceTree = "<group>"; };
+		CE8928712AD8A7820013B358 /* ListCharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharactersView.swift; sourceTree = "<group>"; };
 		CE8928732AD8A7840013B358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8928752AD8A7840013B358 /* mvvm_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mvvm_ios.entitlements; sourceTree = "<group>"; };
 		CE8928772AD8A7840013B358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -120,12 +150,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0536F7622BCF28DB00CB5479 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				0536F7642BCF293800CB5479 /* CharacterLocationDto.swift */,
+				0536F7422BCDCEC000CB5479 /* CharacterDto.swift */,
+				0536F7452BCDD04800CB5479 /* CharacterDataDto.swift */,
+				0536F74B2BCDD0B800CB5479 /* InfoDto.swift */,
+				0536F7492BCDD0A300CB5479 /* EpisodeDataDto.swift */,
+				0536F7402BCDCCFA00CB5479 /* DataLinkDto.swift */,
+				0536F74F2BCDD10600CB5479 /* EpisodeDto.swift */,
+				0536F74D2BCDD0EE00CB5479 /* LocationDto.swift */,
+				0536F7472BCDD07600CB5479 /* LocationDataDto.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		0536F7632BCF28E200CB5479 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				0536F7662BCF295A00CB5479 /* CharacterLocationDao.swift */,
+				0536F7682BCF2A5D00CB5479 /* CharacterDao.swift */,
+				0536F76A2BCF2B1000CB5479 /* CharacterDataDao.swift */,
+				0536F76C2BCF2B4200CB5479 /* InfoDao.swift */,
+				0536F76E2BCF2CBB00CB5479 /* EpisodeDao.swift */,
+				0536F7702BCF2D1E00CB5479 /* EpisodeDataDao.swift */,
+				0536F7722BCF2DA600CB5479 /* LocationDao.swift */,
+				0536F7742BCF2E1600CB5479 /* LocationDataDao.swift */,
+				0536F7762BCF2EA600CB5479 /* DataLinkDao.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
 		CE44F2692ADB3C9300A5057E /* data */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F27E2ADB440D00A5057E /* api */,
 				CE44F27F2ADB441700A5057E /* constants */,
-				CE44F2802ADB442400A5057E /* dataSource */,
 				CE44F2822ADB443F00A5057E /* model */,
 				CE44F2812ADB443200A5057E /* repository */,
 			);
@@ -154,9 +214,11 @@
 		CE44F26C2ADB3D1B00A5057E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F2702ADB3D8F00A5057E /* CourseBo.swift */,
-				CE44F2722ADB3DFD00A5057E /* CourseDetailBo.swift */,
-				CE44F2742ADB3E3C00A5057E /* CourseEpisodeBo.swift */,
+				0536F7522BCDD30500CB5479 /* DataLinkBo.swift */,
+				0536F7582BCDE02100CB5479 /* EpisodeBo.swift */,
+				0536F75A2BCDE05400CB5479 /* LocationBo.swift */,
+				0536F7562BCDDF2D00CB5479 /* CharacterBo.swift */,
+				0536F7602BCEEC6500CB5479 /* CharacterDetailBo.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -164,7 +226,7 @@
 		CE44F26D2ADB3D2600A5057E /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F2762ADB3E6800A5057E /* CourseRepository.swift */,
+				0536F73E2BCDCC4500CB5479 /* RickMortyRepository.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -172,8 +234,9 @@
 		CE44F26E2ADB3D2F00A5057E /* useCase */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F27A2ADB41A500A5057E /* GetListCourseUseCase.swift */,
-				CE44F27C2ADB43B100A5057E /* GetDetailCourseUseCase.swift */,
+				0536F73C2BCDCBF400CB5479 /* GetEpisodesUseCase.swift */,
+				0536F7542BCDDE0700CB5479 /* GetCharactersUseCase.swift */,
+				0536F75C2BCDE07E00CB5479 /* GetLocationsUseCase.swift */,
 			);
 			path = useCase;
 			sourceTree = "<group>";
@@ -188,13 +251,6 @@
 			path = app;
 			sourceTree = "<group>";
 		};
-		CE44F27E2ADB440D00A5057E /* api */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
 		CE44F27F2ADB441700A5057E /* constants */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,17 +259,10 @@
 			path = constants;
 			sourceTree = "<group>";
 		};
-		CE44F2802ADB442400A5057E /* dataSource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = dataSource;
-			sourceTree = "<group>";
-		};
 		CE44F2812ADB443200A5057E /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F28F2ADB4A4900A5057E /* CourseRepositoryImpl.swift */,
+				0536F75E2BCDE19A00CB5479 /* RickMortyRepositoryImpl.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -221,12 +270,8 @@
 		CE44F2822ADB443F00A5057E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F2832ADB446600A5057E /* CoursesAttributesDao.swift */,
-				CE44F2852ADB457D00A5057E /* CourseDao.swift */,
-				CE44F2872ADB474F00A5057E /* CourseDetailDao.swift */,
-				CE44F2892ADB47D000A5057E /* CourseItemDao.swift */,
-				CE44F28B2ADB481E00A5057E /* LinkDao.swift */,
-				CE44F2912ADBD1B700A5057E /* ListCoursesDao.swift */,
+				0536F7632BCF28E200CB5479 /* dao */,
+				0536F7622BCF28DB00CB5479 /* dto */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -260,8 +305,8 @@
 		CE44F2962ADC83C000A5057E /* list */ = {
 			isa = PBXGroup;
 			children = (
-				CE8928712AD8A7820013B358 /* ListCoursesView.swift */,
-				CE44F2982ADC87F200A5057E /* ListCoursesViewModel.swift */,
+				CE8928712AD8A7820013B358 /* ListCharactersView.swift */,
+				CE44F2982ADC87F200A5057E /* ListCharactersViewModel.swift */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -269,8 +314,8 @@
 		CE44F2972ADC83D700A5057E /* detail */ = {
 			isa = PBXGroup;
 			children = (
-				CE44F2A92ADEED0D00A5057E /* DetailCourseView.swift */,
-				CE44F29A2ADC931F00A5057E /* DetailCourseViewModel.swift */,
+				CE44F2A92ADEED0D00A5057E /* DetailCharacterView.swift */,
+				CE44F29A2ADC931F00A5057E /* DetailCharacterViewModel.swift */,
 			);
 			path = detail;
 			sourceTree = "<group>";
@@ -403,7 +448,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					CE89286B2AD8A7820013B358 = {
 						CreatedOnToolsVersion = 15.0;
@@ -472,29 +517,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE44F2842ADB446600A5057E /* CoursesAttributesDao.swift in Sources */,
 				CE44F2A62ADEEB5700A5057E /* Routes.swift in Sources */,
-				CE44F29B2ADC931F00A5057E /* DetailCourseViewModel.swift in Sources */,
-				CE44F2752ADB3E3C00A5057E /* CourseEpisodeBo.swift in Sources */,
+				CE44F29B2ADC931F00A5057E /* DetailCharacterViewModel.swift in Sources */,
+				0536F7462BCDD04800CB5479 /* CharacterDataDto.swift in Sources */,
+				0536F7552BCDDE0700CB5479 /* GetCharactersUseCase.swift in Sources */,
+				0536F76F2BCF2CBB00CB5479 /* EpisodeDao.swift in Sources */,
+				0536F76D2BCF2B4200CB5479 /* InfoDao.swift in Sources */,
 				CE44F2792ADB3EBD00A5057E /* ErrorType.swift in Sources */,
+				0536F7672BCF295A00CB5479 /* CharacterLocationDao.swift in Sources */,
+				0536F7432BCDCEC000CB5479 /* CharacterDto.swift in Sources */,
 				CE44F2A82ADEEC5200A5057E /* Navigator.swift in Sources */,
-				CE44F2862ADB457D00A5057E /* CourseDao.swift in Sources */,
-				CE44F28A2ADB47D000A5057E /* CourseItemDao.swift in Sources */,
-				CE44F2922ADBD1B700A5057E /* ListCoursesDao.swift in Sources */,
+				0536F7712BCF2D1E00CB5479 /* EpisodeDataDao.swift in Sources */,
 				CE44F28E2ADB49CD00A5057E /* Constants.swift in Sources */,
-				CE44F2992ADC87F200A5057E /* ListCoursesViewModel.swift in Sources */,
-				CE44F2732ADB3DFD00A5057E /* CourseDetailBo.swift in Sources */,
-				CE44F28C2ADB481E00A5057E /* LinkDao.swift in Sources */,
-				CE44F2902ADB4A4900A5057E /* CourseRepositoryImpl.swift in Sources */,
-				CE44F27B2ADB41A500A5057E /* GetListCourseUseCase.swift in Sources */,
+				0536F7772BCF2EA600CB5479 /* DataLinkDao.swift in Sources */,
+				0536F7752BCF2E1600CB5479 /* LocationDataDao.swift in Sources */,
+				0536F74E2BCDD0EE00CB5479 /* LocationDto.swift in Sources */,
+				0536F75F2BCDE19A00CB5479 /* RickMortyRepositoryImpl.swift in Sources */,
+				0536F7592BCDE02100CB5479 /* EpisodeBo.swift in Sources */,
+				0536F76B2BCF2B1000CB5479 /* CharacterDataDao.swift in Sources */,
+				0536F7652BCF293800CB5479 /* CharacterLocationDto.swift in Sources */,
+				CE44F2992ADC87F200A5057E /* ListCharactersViewModel.swift in Sources */,
+				0536F74C2BCDD0B800CB5479 /* InfoDto.swift in Sources */,
+				0536F75B2BCDE05400CB5479 /* LocationBo.swift in Sources */,
+				0536F7572BCDDF2D00CB5479 /* CharacterBo.swift in Sources */,
 				CE44F2A42ADC9C0F00A5057E /* injection.swift in Sources */,
-				CE8928722AD8A7820013B358 /* ListCoursesView.swift in Sources */,
-				CE44F2AA2ADEED0E00A5057E /* DetailCourseView.swift in Sources */,
-				CE44F2712ADB3D8F00A5057E /* CourseBo.swift in Sources */,
-				CE44F2882ADB474F00A5057E /* CourseDetailDao.swift in Sources */,
-				CE44F27D2ADB43B100A5057E /* GetDetailCourseUseCase.swift in Sources */,
-				CE44F2772ADB3E6800A5057E /* CourseRepository.swift in Sources */,
+				0536F7692BCF2A5D00CB5479 /* CharacterDao.swift in Sources */,
+				0536F73D2BCDCBF400CB5479 /* GetEpisodesUseCase.swift in Sources */,
+				0536F7412BCDCCFA00CB5479 /* DataLinkDto.swift in Sources */,
+				0536F7732BCF2DA600CB5479 /* LocationDao.swift in Sources */,
+				CE8928722AD8A7820013B358 /* ListCharactersView.swift in Sources */,
+				0536F7612BCEEC6500CB5479 /* CharacterDetailBo.swift in Sources */,
+				0536F7502BCDD10600CB5479 /* EpisodeDto.swift in Sources */,
+				CE44F2AA2ADEED0E00A5057E /* DetailCharacterView.swift in Sources */,
+				0536F7482BCDD07600CB5479 /* LocationDataDto.swift in Sources */,
+				0536F75D2BCDE07E00CB5479 /* GetLocationsUseCase.swift in Sources */,
+				0536F74A2BCDD0A300CB5479 /* EpisodeDataDto.swift in Sources */,
 				CE8928702AD8A7820013B358 /* mvvm_iosApp.swift in Sources */,
+				0536F7532BCDD30500CB5479 /* DataLinkBo.swift in Sources */,
+				0536F73F2BCDCC4500CB5479 /* RickMortyRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +625,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -626,6 +687,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -653,6 +715,7 @@
 				CODE_SIGN_ENTITLEMENTS = mvvm_ios/mvvm_ios.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"mvvm_ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -689,6 +752,7 @@
 				CODE_SIGN_ENTITLEMENTS = mvvm_ios/mvvm_ios.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"mvvm_ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -724,6 +788,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -746,6 +811,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -767,6 +833,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -788,6 +855,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
